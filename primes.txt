@@ -1,0 +1,11 @@
+#prime number
+def prime(a):
+	if a>1:
+	   for i in range(2,a):
+		if i%a==0:
+			prime='no'
+		else:
+		    prime='yes'
+	else:
+	     prime='no'
+	return prime
